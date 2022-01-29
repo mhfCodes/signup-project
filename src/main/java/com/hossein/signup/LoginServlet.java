@@ -25,6 +25,7 @@ public class LoginServlet extends HttpServlet {
 		response.setContentType("text/html");
 		request.getRequestDispatcher("links.html").include(request, response);
 		
+		// Check if a cookie already exists
 		Cookie[] cookies = request.getCookies();
 		boolean loggedIn = false;
 		String cookieName = "";

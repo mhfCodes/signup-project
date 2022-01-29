@@ -6,7 +6,7 @@ public class DB {
 	
 	final private static String URL = "jdbc:oracle:thin:@localhost:1521/pdbdev";
 	final private static String USERNAME = "hossein";
-	final private static String PASSWORD = "rekaeil";
+	final private static String PASSWORD = "xxxx";
 	
 	public static Connection connect() {
 		
