@@ -2,12 +2,35 @@
 
 .middle {
 	width: 80%;
+	text-align: center;
 	margin: 0 auto;
 }
 
+a {
+	transition: 0.2s color;
+}
 
+.mr-15 {
+	margin-right: 15px;
+}
 
+.my-15 {
+	margin-bottom: 15px;
+}
 
+.py-64 {
+	padding-top: 64px;
+	padding-bottom: 64px;
+} 
+
+.px-32 {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.hover-black:hover {
+	color: black;
+}
 
 
 
