@@ -50,7 +50,7 @@ public class SignupServlet extends HttpServlet {
 			String username = request.getParameter("username");
 			String password = request.getParameter("password");
 			
-			int rows = DB.insertData(name, email, username, password);
+			int rows = DB.signUp(name, email, username, password);
 			
 			if (rows > 0) {
 				out.print("You Have Successfully Signed Up");
